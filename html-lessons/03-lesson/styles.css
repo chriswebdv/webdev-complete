@@ -2,12 +2,25 @@
   box-sizing: border-box;
 }
 
-button {
+.subButton {
   background-color: rgb(164, 20, 20);
   color: white;
   border: none;
   height: 36px;
   width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.joinButton {
+  background-color: white;
+  border-color: rgb(87, 87, 240);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(87, 87, 240);
+  height: 36px;
+  width: 62px;
   border-radius: 2px;
   cursor: pointer;
 }
