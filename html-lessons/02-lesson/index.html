@@ -3,111 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>My goals for the year</h1>
+    <header>
+      <h1>My goals for the year</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#html">Learning HTML</a>
+          </li>
+          <li>
+            <a href="#vacation">Planning a vacation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <hr />
-    <nav>
-      <ul>
-        <li>
-          <a href="#html">Learning HTML</a>
-        </li>
-        <li>
-          <a href="#vacation">Planning a vacation</a>
-        </li>
-      </ul>
-    </nav>
-    <hr />
-    <section id="html">
-      <h2>I'm ready to learn HTML</h2>
-      <p>This is my first web page</p>
-      <img
-        src="img/html_logo_300x300.png"
-        alt="HTML5 Logo"
-        title="I am learning HTML5"
-        width="300"
-        height="300"
-      />
-      <figure>
-        <figcaption>An example of HTML code</figcaption>
+    <main>
+      <section id="html">
+        <h2>I'm ready to learn HTML</h2>
+        <p>This is my first web page</p>
+        <section>
+          <h3>HTML5</h3>
+          <img
+            src="img/html_logo_300x300.png"
+            alt="HTML5 Logo"
+            title="I am learning HTML5"
+            width="300"
+            height="300"
+          />
+          <figure>
+            <figcaption>An example of HTML code</figcaption>
+            <p>
+              <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+          </figure>
+        </section>
+        <h3>My Daily Schedule</h3>
+        <p>Let me tell you how:</p>
+        <ol>
+          <li>...I learn more about web dev.</li>
+          <li>...I plan out my schedule.</li>
+          <li>
+            ...I use resources from
+            <abbr title="Mozilla Developer Network">
+              <a href="https://developer.mozilla.org/">MDN</a></abbr
+            >.
+          </li>
+        </ol>
+        <aside>
+          <details>
+            <summary>Guess the number of hours I code per day</summary>
+            <p>I stater at 5 am and I write code for 3 hours</p>
+          </details>
+        </aside>
+        <br />
+        <table>
+          <tr>
+            <td>
+              <time datetime="08:00">8am</time> -
+              <time datetime="11:00">11am</time>
+            </td>
+            <td>Write Code</td>
+          </tr>
+          <tr>
+            <td>
+              <time datetime="11:00">11am</time> -
+              <time datetime="12:00">12am</time>
+            </td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>
+              <time datetime="12:00">12pm</time> -
+              <time datetime="17:00">5pm</time>
+            </td>
+            <td>Study for other courses</td>
+          </tr>
+        </table>
+      </section>
+      <hr />
+      <section id="vacation">
+        <h2>I'm also planning my vacation</h2>
+        <p>I've been working hard and <em>really need a gateway</em></p>
         <p>
-          <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+          I live in <abbr title="Alabama">AL</abbr> so I want to visit a sunny
+          place
         </p>
-      </figure>
 
-      <h3>My Daily Schedule</h3>
-      <p>Let me tell you how:</p>
-      <ol>
-        <li>...I learn more about web dev.</li>
-        <li>...I plan out my schedule.</li>
-        <li>
-          ...I use resources from
-          <abbr title="Mozilla Developer Network">
-            <a href="https://developer.mozilla.org/">MDN</a></abbr
-          >.
-        </li>
-      </ol>
-    </section>
+        <section>
+          <h3>Places I'd like to visit</h3>
+          <ul>
+            <li>
+              <p>I've heard good things about the Caribbean</p>
+              <figure>
+                <img
+                  src="img/caribbean.jpg"
+                  alt="Caribbean beach"
+                  title="I want to visit a beach"
+                  width="400"
+                  height="225"
+                  loading="lazy"
+                />
+                <figcaption>Caribbean Beach gateway</figcaption>
+              </figure>
+            </li>
+            <li>
+              <p>I've heard good things about going here:</p>
+              <address>
+                Bahia Petempich, Carr. Cancún - Tulum Km. 27.5,
+                <br />
+                77580 Puerto Morelos, Q.R., Mexico
+              </address>
+              <figure>
+                <img
+                  src="img/vacation.jpg"
+                  alt="Cancun Vacation"
+                  title="It's 5 o'Clock Somewhere"
+                  loading="lazy"
+                  width="400"
+                  height="267"
+                />
+                <figcaption>A Caribbean vacation image</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </section>
+        <!--TODO: Add more places-->
+        <section>
+          <h3>Places I want to avoid</h3>
+          <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>Mountain Tops</dt>
+            <dd>These are also cold</dd>
+          </dl>
+        </section>
+      </section>
+    </main>
     <hr />
-    <section id="vacation">
-      <h2>I'm also planning my vacation</h2>
-      <p>I've been working hard and <em>really need a gateway</em></p>
+    <footer>
       <p>
-        I live in <abbr title="Alabama">AL</abbr> so I want to visit a sunny
-        place
+        &lt;&lt;&lt; &copy; <a href="about.html">Chris Lagos</a> &gt;&gt;&gt;
       </p>
-
-      <h3>Places I'd like to visit</h3>
-      <ul>
-        <li>
-          <p>I've heard good things about the Caribbean</p>
-          <figure>
-            <img
-              src="img/caribbean.jpg"
-              alt="Caribbean beach"
-              title="I want to visit a beach"
-              width="400"
-              height="225"
-              loading="lazy"
-            />
-            <figcaption>Caribbean Beach gateway</figcaption>
-          </figure>
-        </li>
-        <li>
-          <p>I've heard good things about going here:</p>
-          <address>
-            Bahia Petempich, Carr. Cancún - Tulum Km. 27.5,
-            <br />
-            77580 Puerto Morelos, Q.R., Mexico
-          </address>
-          <figure>
-            <img
-              src="img/vacation.jpg"
-              alt="Cancun Vacation"
-              title="It's 5 o'Clock Somewhere"
-              loading="lazy"
-              width="400"
-              height="267"
-            />
-            <figcaption>A Caribbean vacation image</figcaption>
-          </figure>
-        </li>
-      </ul>
-      <!--TODO: Add more places-->
-      <h3>Places I want to avoid</h3>
-      <dl>
-        <dt>North Pole</dt>
-        <dd>I hear this is <strong>cold</strong>!</dd>
-
-        <dt>Mountain Tops</dt>
-        <dd>These are also cold</dd>
-      </dl>
-    </section>
-    <hr />
-    &lt;&lt;&lt; &copy; <a href="about.html">Chris Lagos</a> &gt;&gt;&gt;
-    <p>
-      <a href="#">Back to top</a>
-    </p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
   </body>
 </html>
