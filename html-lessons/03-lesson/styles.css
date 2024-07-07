@@ -19,8 +19,23 @@
   border-style: solid;
   border-width: 1px;
   color: rgb(87, 87, 240);
+  font-weight: 500;
   height: 36px;
   width: 62px;
   border-radius: 2px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tweetButton {
+  background-color: rgb(26, 106, 235);
+  border-width: 1px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 18px;
+  height: 36px;
+  width: 74px;
   cursor: pointer;
 }
