@@ -11,6 +11,15 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 5px;
+  transition: opacity 0.15s;
+}
+
+.subButton:hover {
+  opacity: 0.8;
+}
+
+.subButton:active {
+  opacity: 0.5;
 }
 
 .joinButton {
@@ -25,6 +34,16 @@
   border-radius: 2px;
   cursor: pointer;
   margin-right: 5px;
+  transition: backround-color 0.15s, color 0.15s;
+}
+
+.joinButton:hover {
+  background-color: rgb(87, 87, 240);
+  color: white;
+}
+
+.joinButton:active {
+  opacity: 0.7;
 }
 
 .tweetButton {
@@ -38,6 +57,11 @@
   height: 36px;
   width: 74px;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.tweetButton:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .requestButton {
@@ -49,6 +73,11 @@
   width: 105px;
   margin-right: 5px;
   cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.requestButton:hover {
+  opacity: 0.8;
 }
 
 .addtoButton {
@@ -59,8 +88,12 @@
   border-radius: 15px;
   margin-right: 5px;
   cursor: pointer;
+  transition: backround-color 0.15s;
 }
 
+.addtoButton:hover {
+  background-color: rgb(228, 192, 8);
+}
 .signButton {
   background-color: rgb(46, 164, 79);
   border: none;
@@ -70,6 +103,11 @@
   width: 85px;
   border-radius: 5px;
   cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.signButton:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .getButton {
@@ -82,6 +120,11 @@
   border-radius: 3px;
   margin-right: 5px;
   cursor: pointer;
+  transition: backround-color 0.15s;
+}
+
+.getButton:hover {
+  background-color: rgb(94, 64, 138);
 }
 
 .downButton {
@@ -95,6 +138,12 @@
   width: 100px;
   margin-right: 5px;
   cursor: pointer;
+  transition: backround-color 0.15s, color 0.15s;
+}
+
+.downButton:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
 }
 
 .applyButton {
