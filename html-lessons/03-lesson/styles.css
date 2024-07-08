@@ -94,6 +94,10 @@
 .addtoButton:hover {
   background-color: rgb(228, 192, 8);
 }
+
+.addtoButton:active {
+  opacity: 0.7;
+}
 .signButton {
   background-color: rgb(46, 164, 79);
   border: none;
@@ -156,6 +160,11 @@
   border-radius: 18px;
   margin-right: 5px;
   cursor: pointer;
+  transition: backround-color 0.15s;
+}
+
+.applyButton:hover {
+  background-color: rgb(10, 82, 154);
 }
 
 .saveButton {
@@ -172,8 +181,18 @@
   cursor: pointer;
 }
 
-a:visited {
+.saveButton:hover {
+  border-width: 2px;
+  background-color: rgba(10, 102, 194, 0.15);
+}
+
+.amazonBackBtn {
   color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: brown;
 }
 
 .priceH1 {
@@ -189,4 +208,13 @@ a:visited {
   border-radius: 15px;
   margin-right: 5px;
   cursor: pointer;
+  transition: backround-color 0.15s;
+}
+
+.buyBtn:hover {
+  background-color: rgb(211, 133, 16);
+}
+
+.buyBtn:active {
+  opacity: 0.7;
 }
