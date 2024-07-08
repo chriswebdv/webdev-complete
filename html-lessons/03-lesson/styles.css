@@ -122,3 +122,22 @@
   margin-top: 15px;
   cursor: pointer;
 }
+
+a:visited {
+  color: rgb(0, 113, 133);
+}
+
+.priceH1 {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.buyBtn {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
