@@ -48,6 +48,7 @@
   height: 36px;
   width: 105px;
   margin-right: 5px;
+  cursor: pointer;
 }
 
 .addtoButton {
@@ -56,4 +57,17 @@
   height: 30px;
   width: 150px;
   border-radius: 15px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.signButton {
+  background-color: rgb(46, 164, 79);
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 85px;
+  border-radius: 5px;
+  cursor: pointer;
 }
