@@ -39,3 +39,21 @@
   width: 74px;
   cursor: pointer;
 }
+
+.requestButton {
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  border: none;
+  height: 36px;
+  width: 105px;
+  margin-right: 5px;
+}
+
+.addtoButton {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 30px;
+  width: 150px;
+  border-radius: 15px;
+}
