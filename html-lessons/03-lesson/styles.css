@@ -71,3 +71,24 @@
   border-radius: 5px;
   cursor: pointer;
 }
+
+.getButton {
+  background-color: rgb(121, 82, 179);
+  border: none;
+  color: white;
+  font-weight: bold;
+  height: 36px;
+  width: 100px;
+  border-radius: 3px;
+}
+
+.downButton {
+  color: rgb(108, 117, 125);
+  font-weight: bold;
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 100px;
+}
