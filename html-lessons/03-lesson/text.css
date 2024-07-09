@@ -11,8 +11,36 @@
   margin-bottom: 0;
 }
 
-h3,
 .italicSales {
   color: #f70d1a;
   margin-top: 5px;
+}
+
+.verdaP {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verdaH1 {
+  margin-bottom: 0;
+}
+
+.verdaSecond {
+  margin-top: 5px;
+  color: #878787;
+}
+
+.getButton {
+  background-color: #314a30;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.arialP {
+  text-align: center;
+}
+
+.learnP {
+  color: lightskyblue;
 }
