@@ -8,3 +8,15 @@
   margin: 25px;
   border-radius: 5%;
 }
+
+.cat-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.cat-square {
+  margin: 25px;
+  width: 100px;
+  height: 100px;
+}
