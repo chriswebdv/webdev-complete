@@ -3,3 +3,41 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  height: 100vh;
+}
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+label {
+  color: #666;
+}
+
+input {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+button {
+  border: none;
+  background-color: #0a66c2;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: white;
+}
