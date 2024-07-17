@@ -14,8 +14,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px;
-  height: 100vh;
+  height: 50vh;
 }
 .signup-form {
   display: flex;
@@ -40,4 +39,30 @@ button {
   padding: 0.5rem;
   border-radius: 1rem;
   color: white;
+}
+
+.twitter-box {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.tweet-btn {
+  padding: 5px 15px;
+  background-color: #1da1f2;
+}
+
+.tweet-btn:hover {
+  opacity: 0.8;
+}
+
+.tweet-input {
+  border: none;
 }
